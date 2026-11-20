@@ -1,0 +1,81 @@
+# ===== 操作系统生成的文件 =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# ===== 编辑器 / IDE =====
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 密钥 / 敏感信息（最重要，千万别提交）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+credentials.json
+
+# ===== Office / WPS 临时文件 =====
+~$*
+*.tmp
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== Node.js =====
+node_modules/
+dist/
+build/
+out/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ===== Java / Maven / Gradle =====
+target/
+*.class
+.gradle/
+build/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===== C / C++ =====
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# ===== Go =====
+*.test
+*.out
+vendor/
